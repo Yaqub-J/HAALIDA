@@ -156,7 +156,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 70px;
   margin-right: 8px;
 }
 
@@ -974,6 +974,10 @@ section,
     text-align: center;
     margin-bottom: 3rem;
   }
+
+  .hero .hero-content .hero-actions {
+    justify-content: center;
+  }
 }
 
 .hero .hero-content .hero-title {
@@ -1187,6 +1191,15 @@ section,
   .about .about-content {
     padding-left: 0;
     margin-top: 40px;
+    text-align: center;
+  }
+
+  .about .about-content .cta-buttons {
+    justify-content: center;
+  }
+
+  .about .about-content .chef-highlights .highlight-item {
+    justify-content: center;
   }
 }
 
@@ -1604,7 +1617,7 @@ section,
 @media (max-width: 768px) {
   .menu .menu-item .menu-item-content .menu-item-header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
   }
 
@@ -3115,6 +3128,7 @@ section,
 @media (max-width: 992px) {
   .contact .contact-info {
     margin-bottom: 40px;
+    text-align: center;
   }
 }
 
